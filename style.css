@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-collapse {
+  align-items: center;
+  padding-left: 500px;
+  justify-content: space-between;
+
+}
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-link {
+  margin-left: 80px;
+  justify-content: space-between;
+  color: #7fb825;
+
+
+
+}
+
+.navbar {
+  /* background-image: linear-gradient(to right,black,rgb(129, 201, 56)); */
+  /* background-color:rgb(122, 176, 14);
+   background-image: linear-gradient(to right,black,rgb(122, 176, 14)); */
+  background-color: white;
+
+
+}
+
+.navbar-nav a {
+  color: #7fb825;
+}
+
+.carousel-inner {
+  height: 710px;
+}
+
+/* .carousel-item{
+} */
+.carousel-item {
+  align-items: center;
+}
+
+.carousel-item img {
+  height: 700px;
+  opacity: 1;
+
+}
+
+.carousel-item h1 {
+  position: relative;
+  bottom: 500px;
+  color: white;
+  font-family: "Sofia", sans-serif;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+.carousel-item p {
+  position: relative;
+  bottom: 500px;
+  color: white;
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.carousel-item button {
+  height: 50px;
+  bottom: 400px;
+  width: 200px;
+  position: relative;
+  border-radius: 30px;
+  left: 900px;
+  border: none;
+  background-color: #7fb825;
+  font-size: 20px;
+}
+
+.carousel-item button:hover {
+  background-color: #7fb825;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  justify-content: space-around;
+  color: #7fb825;
+}
+
+.icons img {
+  height: 100px;
+  width: 100px;
+  margin-left: 40px;
+  justify-content: space-between;
+
+}
+
+.icon img {
+  margin-left: 40px;
+}
+
+.icon {
+  height: 150px;
+  width: 200px;
+
+
+}
+
+.icon h6,
+p {
+  text-align: center;
+}
+
+.categories {
+  height: 950px;
+  width: 100%;
+  text-align: center;
+ 
+
+}
+
+.category{
+  height: 800px;
+  width: 500px;
+  margin-left: 50px;
+  color: #7fb825;
+  
+}
+.category img{
+  height: 300px;
+  width: 500px;
+
+}
+.category button{
+  height: 30px;
+  width: 100px;
+  background-color:white;
+  color: #7fb825;
+  border-radius: 20px;
+  border: none;
+}
+.veg,.meat,.fruits,.sproutes,.milk,.egg{
+  height: 300px;
+  margin-top: 80px;
+
+}
+.items{
+  height:800px ;
+  width: 1800px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
