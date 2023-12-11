@@ -17,9 +17,9 @@
 </head>
 
 <body>
+
   <section class="header">
-    <div class="navabr">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg   fixed-top " id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./images/logoo.png" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -40,8 +40,11 @@
           </div>
         </div>
       </nav>
-    </div>
+
+    
+
     <!--carosal-->
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active fade-in-down" data-bs-interval="2000" data-bs-ride="true">
@@ -103,6 +106,7 @@
     </div>
 
   </section>
+
   <section class="categories">
     <h1>OUR PRODUCTS</h1>
     <div class="items">
@@ -172,6 +176,25 @@
 
 
   </section>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded',function(){
+      window.addEventListener('scroll',function(){
+        let scrollValue = window.scrollY || document.documentElement.scrollTop;
+        const navbarElement = document.getElementById('navbar')
+
+        if (scrollValue >50){
+          navbarElement.classList.add('navbar-scrolled')
+        }else {
+          navbarElement.classList.remove('navbar-scrolled')
+        }
+        console.log(scrollValue);
+
+      })
+    })
+
+  </script>
 </body>
 
 </html>

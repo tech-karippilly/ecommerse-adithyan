@@ -32,9 +32,15 @@
   /* background-image: linear-gradient(to right,black,rgb(129, 201, 56)); */
   /* background-color:rgb(122, 176, 14);
    background-image: linear-gradient(to right,black,rgb(122, 176, 14)); */
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  position: sticky;
 
+}
 
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value for transparency */
+  transition: background-color 0.3s ease-in-out;
 }
 
 .navbar-nav a {
